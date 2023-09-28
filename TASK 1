@@ -1,0 +1,343 @@
+<html>
+    <head>
+        <style>
+        *{
+            margin:0px;
+            padding:0px;
+        }
+        .nav{
+            height:50px;
+            width:100%;
+            order:3px solid blue;
+        }
+        .nav1{
+            height:50px;
+            width:40%;
+            order:1px solid black;
+            float:left;
+        }
+        .nav2{
+            height:50px;
+            width:50%;
+            float:right;
+            text-align: center;
+            margin:auto;
+        }
+        .nav21{
+            height:50px;
+            width:16%;
+            float:left;
+        }
+        .box1{
+            height:75px;
+            width:80%;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size:28px;
+            text-align: center;
+            margin:auto;
+            padding:20px;
+        }
+        .box2{
+            height:400px;
+            width:80%;
+            margin:auto;
+            
+        }
+        .img1{
+            height:400px;
+            width:50%;
+            background-image:url(img1.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            float:left;
+        }
+        .sb1{
+            height:400px;
+            width:50%;
+            float:right;
+        }
+        .img2{
+            height:200px;
+            width:100%;
+            background-image:url(img2.jpg);
+            background-repeat:repeat;
+            background-size:contain;
+            float:right;
+        }
+        #sb2{
+            height:200px;
+            width:100%;
+            float:right;
+        }
+        .img3{
+            height:200px;
+            width:50%;
+            background-image:url(img3.jpg);
+            background-repeat:repeat;
+            background-size:contain;
+            float:left;
+        }
+        .img4{
+            height:200px;
+            width:50%;
+            background-image:url(img4.jpg);
+            background-repeat:repeat;
+            background-size:contain;
+            float:right;
+        }
+        .mb{
+            height:700px;
+            width:100%;
+            margin:auto;
+            background-image: linear-gradient(to left, #0a6894, #2cb655);
+        }
+        #mb1{
+            height:250px;
+            width:100%;
+            text-align: center;
+            font-size:28px;
+            color:white;
+        }
+        #mb2{
+            height:450px;
+            width:100%;
+            text-align: center;
+            color:white;
+        }
+        #mb21{
+            height:450px;
+            width:33%;
+            text-align: center;
+            font-size: 25px;
+            float:left;
+        }
+        #mb22{
+            height:450px;
+            width:33%;
+            text-align: center;
+            font-size: 25px;
+            float:left;
+        }
+        #mb23{
+            height:450px;
+            width:33%;
+            text-align: center;
+            font-size: 25px;
+            float:left;
+        }
+        #lb{
+            height:800px;
+            width:100%;
+            margin:auto;
+            background-image: linear-gradient(to bottom, #f4f6f7, #b7bbb8);
+        }
+        #lb1{
+            height:250px;
+            width:100%;
+            text-align: center;
+            font-size:28px;
+        }
+        #lb2{
+            height:550px;
+            width:100%;
+            text-align: center;
+        }
+        #lb21{
+            height:490px;
+            width:30%;
+            text-align: center;
+            font-size: 20px;
+            float:left;
+            background:white;
+            margin:10px;
+        }
+        #lb22{
+            height:490px;
+            width:30%;
+            text-align: center;
+            font-size: 20px;
+            float:left;
+            background:white;
+            margin:20px;
+        }
+        #lb23{
+            height:490px;
+            width:30%;
+            text-align: center;
+            font-size: 20px;
+            float:left;
+            background:white;
+            margin:10px;
+        }
+        #last{
+            height:500px;
+            width:100%;
+            margin:auto;
+            background-color:white;
+        }
+        #last1{
+            height:200px;
+            width:100%;
+            text-align: center;
+            font-size:28px; 
+        }
+        #last2{
+            height:300px;
+            width:100%;
+            text-align: center;
+        }
+        #last21{
+            height:150px;
+            width:30%;
+            text-align: center;
+            font-size: 20px;
+            float:left;
+            background:rgb(221, 204, 204);
+            margin:80px 10px 20px 250px;
+            border-radius:20px;
+        }
+        #last22{
+            height:150px;
+            width:30%;
+            text-align: center;
+            font-size: 20px;
+            float:left;
+            background:rgb(221, 204, 204);
+            margin:80px 10px 20px 10px;
+            border-radius:20px;
+        }
+        #end{
+            height:500px;
+            width:100%;
+            margin:auto;
+            background-color:black;
+            color:white;
+        }
+        #end1{
+            height:300px;
+            width:100%;
+            text-align: center;
+        }
+        #end11{
+            height:300px;
+            width:20%;
+            text-align: center;
+            font-size: 20px;
+            float:left;
+            margin:50px 20px 20px 70px;
+        }
+        #end12{
+            height:300px;
+            width:20%;
+            text-align: center;
+            font-size: 20px;
+            float:left;
+            margin: 50px 20px 20px 20px;
+        }
+        #end13{
+            height:300px;
+            width:20%;
+            text-align: center;
+            font-size: 20px;
+            float:left;
+            margin:50px 20px 20px 20px;
+        }
+        #end14{
+            height:300px;
+            width:20%;
+            text-align: center;
+            font-size: 20px;
+            float:left;
+            margin:50px 20px 20px 20px;
+        }
+        #end2{
+            height:100px;
+            width:80%;
+            margin:80px 50px 50px 150px;
+            text-align: center;
+        }
+
+
+    </style>  
+    </head>
+    <body>
+        <nav class="nav">
+            <div>
+                <div class="nav1">LANDING PAGE</div>
+                <div class="nav2">
+                    <div class="nav21">HOME</div>
+                    <div class="nav21">BLOG</div>
+                    <div class="nav21">PORTFOLIO</div>
+                    <div class="nav21">SERVICES</div>
+                    <div class="nav21">ABOUT</div>
+                    <div class="nav21">CONTACT</div>    
+                </div>
+            </div>
+        </nav>
+        <hr/>
+        <div class="box1">Lesser is a creative agency that love to <br> create functional website</div><br/><br/>
+        <div class="box2">
+            <div class="img1"></div>
+            <div class="sb1">
+                <div class="img2"></div>
+                <div id="sb2">
+                    <div class="img3"></div>
+                    <div class="img4"></div>
+                </div>
+            </div>
+        </div><br/><br/><br/><br><br>
+        <div class="mb">
+            <div id="mb1"><h2><br>Our Awesome Services</h2><br>Far far away,behind the word mountains,far from the countries<br>Vokalia and Consonantia,there livec the blind texts.</div>
+            <div id="mb2">
+                <div id="mb21">
+                    <div><br><br><h3>Finance dashboard</h3><br><br>Far far away,behind the word<br> mountains,far from the cuntries Vokalia<br> and Consanantia,there live the blind texts.<br>Seperated they live in Bokmarksgrove <br>right at the coast of the Semantics,<br> a large language ocean.</div>
+                </div>
+                <div id="mb22">
+                    <div><br><br><h3>Made with Love</h3><br><br>Far far away,behind the word<br> mountains,far from the cuntries Vokalia<br> and Consanantia,there live the blind texts.<br>Seperated they live in Bokmarksgrove <br>right at the coast of the Semantics,<br> a large language ocean.</div>
+                    <div></div>
+                </div>
+                <div id="mb23">
+                    <div><br><br><h3>Help & Support</h3><br><br>Far far away,behind the word<br> mountains,far from the cuntries Vokalia<br> and Consanantia,there live the blind texts.<br>Seperated they live in Bokmarksgrove <br>right at the coast of the Semantics,<br> a large language ocean.</div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <br><br><br><br>
+        <div id="lb">
+            <div id="lb1"><br><br><h3>Our Recent Blog</h3><br>Far far away,behind the word mountains,far from the countries<br>Vokalia and Consonantia,there livec the blind texts.</div>
+            <div id="lb2">
+                <div id="lb21">
+                    <div><img src="img2.jpg" height="200px" width="400px"/></div><br>
+                    <div><h2>New iPhone 6 Released</h2><br>Far far away,behind the word<br> mountains,far from the cuntries Vokalia<br> and Consanantia,there live the blind texts.<br>Seperated they live in Bokmarksgrove <br>right at the coast of the Semantics,<br> a large language ocean.</div><br>
+                    <button value="Read More">Read more</button>
+                </div>
+                <div id="lb21">
+                    <div><img src="img1.jpg" height="200px" width="400px"/></div><br>
+                    <div><h2>New iPhone 6 Released</h2><br>Far far away,behind the word<br> mountains,far from the cuntries Vokalia<br> and Consanantia,there live the blind texts.<br>Seperated they live in Bokmarksgrove <br>right at the coast of the Semantics,<br> a large language ocean.</div><br>
+                    <button value="Read More">Read more</button>
+                </div>
+                <div id="lb21">
+                    <div><img src="img3.jpg" height="200px" width="400px"/></div><br>
+                    <div><h2>New iPhone 6 Released</h2><br>Far far away,behind the word<br> mountains,far from the cuntries Vokalia<br> and Consanantia,there live the blind texts.<br>Seperated they live in Bokmarksgrove <br>right at the coast of the Semantics,<br> a large language ocean.</div><br>
+                    <button value="Read More">Read more</button>
+                </div>
+            </div>
+        </div>
+        <div id="last">
+            <div id="last1"><h2><br>Our Awesome Services</h2><br>Far far away,behind the word mountains,far from the countries<br>Vokalia and Consonantia,there livec the blind texts.</div>
+            <div id="last2">
+                <div id="last21">Far far away,behind the word<br> mountains,far from the cuntries Vokalia<br> and Consanantia,there live the blind texts.<br>Seperated they live in Bokmarksgrove <br>right at the coast of the Semantics,<br> a large language ocean.</div>
+                <div id="last22">Far far away,behind the word<br> mountains,far from the cuntries Vokalia<br> and Consanantia,there live the blind texts.<br>Seperated they live in Bokmarksgrove <br>right at the coast of the Semantics,<br> a large language ocean.</div>
+            </div>
+        </div>
+        <div id="end">
+            <div id="end1">
+                <div id="end11"><h3>About Us</h3><br>Far far away,behind the word<br> mountains,far from the cuntries Vokalia<br> and Consanantia,there live the blind texts.</div>
+                <div id="end12"><h3>Our Services</h3><br>Web Design<br>Brandiing&Identity<br>Free HTML5<br>Handrafted Template</div>
+                <div id="end13"><br><br>Free Bootstrap Template<br>Free HTML5 Template<br>Free HTML 5 &CSS3 Template<br>Handcrafted Template</div>
+                <div id="end14"><h3>Follow us</h3><br>Twitter<br>Facebook<br>Google Plus<br>Instagram</div>
+            </div>
+            <div id="end2">2016 FreeHTML5 Template. All Rights Reserved.<br>DEsigned with love by FreeHTML5.co Demo Images by Unsplash</div>
+        </div>
+    </body>
+</html>
